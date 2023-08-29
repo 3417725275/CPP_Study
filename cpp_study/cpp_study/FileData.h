@@ -1,8 +1,93 @@
 #pragma once
 #include <string>
 using std::string;
-struct FileData
+class FileData
 {
+public:
+	void assign_data(string key_name, string data)
+	{
+		if (key_name == "WAST")
+		{
+			WAST = data;
+		}
+		else if (key_name == "QFE")
+		{
+			QFE = std::stod(data);
+		}
+		else if (key_name == "QFF")
+		{
+			QFF = std::stod(data);
+		}
+		else if (key_name == "QNH")
+		{
+			QNH = std::stod(data);
+		}
+		else if (key_name == "DP")
+		{
+			DP = std::stod(data);
+		}
+		else if (key_name == "EV")
+		{
+			EV = std::stod(data);
+		}
+		else if (key_name == "RF")
+		{
+			RF = std::stoi(data);
+		}
+		else if (key_name == "RH")
+		{
+			RH = std::stod(data);
+		}
+		else if (key_name == "ST1")
+		{
+			ST1 = std::stod(data);
+		}
+		else if (key_name == "ST2")
+		{
+			ST2 = std::stod(data);
+		}
+		else if (key_name == "ST3")
+		{
+			ST3 = std::stod(data);
+		}
+		else if (key_name == "ST4")
+		{
+			ST4 = std::stod(data);
+		}
+		else if (key_name == "SR")
+		{
+			SR = std::stoi(data);
+		}
+		else if (key_name == "T")
+		{
+			T = std::stod(data);
+		}
+		else if (key_name == "S")
+		{
+			S = std::stoi(data);
+		}
+		else if (key_name == "Dta")
+		{
+			Dta = std::stoi(data);
+		}
+		else if (key_name == "Dts")
+		{
+			Dts = std::stoi(data);
+		}
+		else if (key_name == "Sx")
+		{
+			Sx = std::stoi(data);
+		}
+		else
+		{
+			throw std::exception("Invalid key name");
+		}
+
+
+
+
+	}
+
 	string WAST;
 	double QFE;//Barometric Pressure							
 	double QFF;//Barometric Pressure (QFE*Kqff)			

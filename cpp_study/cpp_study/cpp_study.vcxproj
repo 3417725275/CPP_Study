@@ -133,6 +133,7 @@
     <ClInclude Include="FileData.h" />
     <ClInclude Include="FileReader.h" />
     <ClInclude Include="MyVector.h" />
+    <ClInclude Include="Tools.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FileReader.cpp" />

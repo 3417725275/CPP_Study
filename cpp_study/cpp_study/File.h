@@ -8,7 +8,6 @@ class File
 {
 private:
 	std::string _filePath;
-	std::string _headerline;
 	MyVector<FileData> _data;
 public:
 	File(const std::string& filePath) :_filePath(filePath)
@@ -19,6 +18,6 @@ public:
 	{
 
 	}
-
+public:
 
 };

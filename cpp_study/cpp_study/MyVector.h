@@ -1,3 +1,4 @@
+#pragma  once
 #include <iostream>
 #include <stdexcept>
 
@@ -16,7 +17,7 @@ public:
 	}
 
 	~MyVector() {
-		delete[] data;
+		//delete[] data;
 	}
 
 	size_t Size() const {
