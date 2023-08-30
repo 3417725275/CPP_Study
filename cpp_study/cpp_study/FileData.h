@@ -88,6 +88,7 @@ public:
 
 	}
 
+
 	string WAST;
 	double QFE;//Barometric Pressure							
 	double QFF;//Barometric Pressure (QFE*Kqff)			

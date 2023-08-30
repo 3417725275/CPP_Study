@@ -2,3 +2,7 @@ resource/
 .vs/
 cpp_study/cpp_study/x64/
 cpp_study/x64/
+cpp_study/packages/
+cpp_study/unitTest/x64/
+cpp_study/Sample-Test1/x64/
+cpp_study/assigment1/x64/

@@ -1,9 +1,8 @@
 
+#include <iostream>
 #include "Console.h"
 #include "test.h"
 #include"FileReader.h"
-#include <iostream>
-#include "WindData.h"
 #include "Computor.h"
 
 //1.控制台(Console)显示菜单(string)
