@@ -33,6 +33,7 @@ int main()
 	//vec1.data();//返回内部封装的数组指针，
 	//vec1.shrink_to_fit();//让capacity==size
 
+	
 	//1.
 	Console console;
 	console.show_menu();
