@@ -14,37 +14,91 @@ using std::string;
 
 //
 
+class Test
+{
+
+	//...
+};
+
 class shape
 {
 public:
-	void area() {
-
+	float area() {
+		//XXXXX
+		return _area;
 	}
+
+	Test get_test()
+	{
+		//...
+	}
+
+	void set(float val)
+	{
+		_area = val;
+	}
+	float get()
+	{
+		return _area;
+	}
+private:
+	float _area;
 };
 
 
+//左值和右值
+//右值表达的是临时的值，例如表达式，
+//左值表达的是长久的值，比如变量
 int main()
 {
 
 
+	int i = 5;
+
+	//i大于0 并且i<10 &&表示与
+	if (i > 0 && i < 10 && i < 5 && i>4) //短路求值
+	{
+		//do something
+	}
+
+	// || 
+	if (i > 0 || i < 10 || i < 5 || i>4)//短路求值
+	{
+		//do something
+	}
+
+	if (i > 0 && i < 10 || i>5)
+	{
+
+	}
+
+	//&& ||
+	//& |
+
+	i = i + 1; //这里的相当于 i++;
+	i += 1;//i+1相当于 ++i
+
+
+
+
+	shape sp;
+
+	shape& left_ref = sp; //左值引用，它只能引用左值
+
+	float&& right_ref = sp.area();//右值引用，它可以引用右值
+	const float& const_ref = sp.area();
+
 	const char* str = "Hello World";
-	
-	std::vector<shape> shapes_vec(10);
-	//普通for循环
-	for (std::vector<shape>::iterator it = shapes_vec.begin(); it != shapes_vec.end(); ++it)
-	{
-		it->area();
-		*it;
-	}
-
-	//范围for
-	for (shape obj : shapes_vec)
-	{
-		obj.area();//修改obj不会修改shapes_vec中的值
-
-	}
 
 
 
+	auto area = sp.area(); //右边的表达式它是右值
+	//左边的变量它是左值
+	auto area2 = area;
+
+	//左值既可以放在左边，又可以放在右边
+	//右值只能放在右边
+
+	return 0;
 }
 
