@@ -12,46 +12,63 @@
 #include <stack>
 using std::string;
 
-//
+//全局作用域只能定义全局常量，宏定义
 
 class Test
 {
 
+	void func()
+	{
+
+		if (true)
+		{
+
+		}
+
+
+		int i = 0;
+		if (i > 0)
+		{
+			//语句1
+		}
+		else
+		{
+			//语句2
+		}
+
+
+		//分支预测
+		if (i > 0)
+		{
+			//语句1
+		}
+		else if (i == 0)
+		{
+			//语句2
+		}
+		else if (i < 0)
+		{
+			//语句3
+		}
+
+	}
 	//...
 };
 
-class shape
+
+struct test1
 {
-public:
-	float area() {
-		//XXXXX
-		return _area;
-	}
-
-	Test get_test()
-	{
-		//...
-	}
-
-	void set(float val)
-	{
-		_area = val;
-	}
-	float get()
-	{
-		return _area;
-	}
-private:
-	float _area;
+	char a;
+	int b;
+	int* c;
 };
 
 
-//左值和右值
-//右值表达的是临时的值，例如表达式，
-//左值表达的是长久的值，比如变量
 int main()
 {
-
+	sizeof(test1);
+	auto size1 = sizeof(int);
+	std::cout << size1 << std::endl;
 
 	int i = 5;
 
@@ -102,3 +119,55 @@ int main()
 	return 0;
 }
 
+
+
+std::vector<int> get_vec()
+{
+
+	try
+	{
+		//代码
+		std::vector<int> vec(3);
+		int a[4];
+	}
+	catch(std::exception& ex) //所有异常的基类
+	{
+		std::cout << ex.what() << std::endl;
+	}
+
+
+}
+
+void func()
+{
+	while (true)
+	{
+
+
+	}
+
+
+	//至少执行一次
+	do
+	{
+
+	} while (true);
+
+
+	std::vector<int> vec;
+	for (auto i : get_vec())//只会在最开始的时候去访问vec，
+	{
+
+		for (auto i : get_vec())
+		{
+			//语句
+			if (true)
+			{
+				goto label;
+			}
+		}
+	}
+
+label:
+	//语句2
+}

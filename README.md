@@ -19,3 +19,11 @@ https://meeting.tencent.com/user-center/shared-record-info?id=1aefca1c-1b3d-43d3
 第四次课 12.25
 
 https://meeting.tencent.com/user-center/shared-record-info?id=fe7e9dee-2b9a-4369-ab37-ebfddd058cf9&is_webview=1&from=6&app_lang=zh-cn&click_source_for_middle_login=1
+
+
+
+第五次课录屏
+
+
+
+https://meeting.tencent.com/user-center/shared-record-info?id=3dca896f-7db5-484a-b1e7-b9bc338118b1&is_webview=1&from=6&app_lang=zh-cn&click_source_for_middle_login=1
