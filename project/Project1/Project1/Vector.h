@@ -7,10 +7,17 @@ struct Vector2
 };
 
 
+class Vector2
+{
+
+
+};
+
+
 Vector2 plus(Vector2 v1, Vector2 v2)
 {
-	
-	
+
+
 }
 
 //定义以下函数
@@ -24,3 +31,7 @@ Vector2 plus(Vector2 v1, Vector2 v2)
 //8.与另一个向量的点乘
 //9.与另一个向量的叉乘 
 
+
+//自定义一个Vector2 类
+//将上面的函数写成类的成员函数
+//记得将函数声明和定义分开写 (.h和.cpp分离)

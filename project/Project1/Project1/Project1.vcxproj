@@ -128,9 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThirdClass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="class.h" />
     <ClInclude Include="class_practice.h" />
+    <ClInclude Include="SSD.h" />
+    <ClInclude Include="ThirdClass.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

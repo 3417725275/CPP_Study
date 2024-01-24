@@ -18,12 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ThirdClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="class_practice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdClass.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
