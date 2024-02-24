@@ -21,6 +21,9 @@
     <ClCompile Include="ThirdClass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test224.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ThirdClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test224.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

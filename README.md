@@ -39,3 +39,11 @@ https://meeting.tencent.com/user-center/shared-record-info?id=3dca896f-7db5-484a
 
 
 第七次课录频：https://meeting.tencent.com/v2/cloud-record/share?id=5af17a83-b418-45d9-bc6c-a973d35183a9
+
+
+
+
+
+2024.2.24录屏
+
+https://meeting.tencent.com/user-center/shared-record-info?id=1f10836e-6f33-48b1-aae2-9c4f4e415934&is_webview=1&from=6&app_lang=zh-cn&click_source_for_middle_login=1
